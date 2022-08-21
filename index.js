@@ -30,7 +30,7 @@ app.use("/api", jobApplicationRouter);
 
 app.get("/", (req, res) => {
   res.send(
-    `Welcome to Hall Booking API in Port ${PORT} and endpoint is "/api/pinterest/dashboard-home"`
+    `Welcome to Hall Booking API in Port ${PORT} and endpoint is /api/job-application`
   );
 });
 
